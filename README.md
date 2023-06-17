@@ -1,11 +1,11 @@
-About r-solvesaphe
-==================
+About r-solvesaphe-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-solvesaphe-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=SolveSAPHE
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-solvesaphe-feedstock/blob/main/LICENSE.txt)
 
 Summary: Universal and robust algorithm for solving the total alkalinity-pH equation presented in G. Munhoven (2013) <doi:10.5194/gmd-6-1367-2013> and G. Munhoven (2021) <doi:10.5194/gmd-2020-447>. The total alkalinity-pH equation relates total alkalinity and pH for a given set of acid-base concentrations in a given water sample, among which carbonic acid. This package is particularly useful in marine chemistry involving dissolved inorganic carbon. Original package in Fortran can be found at <doi:10.5281/zenodo.4328965>.
 
