@@ -1,4 +1,4 @@
-{% set version = '2.1.0' %}
+{% set version = "2.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SolveSAPHE_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SolveSAPHE/SolveSAPHE_{{ version }}.tar.gz
-  sha256: d9ad1611716350c27cae7658453a3f99b326834f37d7ce85cfd2a040538082e4
+  sha256: 589dfaa8faa8fec5a8310fc28e7186e6f89060dbf4dda117c5cabf091d5f43af
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -35,12 +35,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=SolveSAPHE
   license: GPL-2.0-or-later
-  summary: Universal and robust algorithm for solving the total alkalinity-pH equation presented
-    in G. Munhoven (2013) <doi:10.5194/gmd-6-1367-2013> and G. Munhoven (2021) <doi:10.5194/gmd-2020-447>.
-    The total alkalinity-pH equation relates total alkalinity and pH for a given set
-    of acid-base concentrations in a given water sample, among which carbonic acid.
-    This package is particularly useful in marine chemistry involving dissolved inorganic
-    carbon. Original package in Fortran can be found at <doi:10.5281/zenodo.4328965>.
+  summary: Universal and robust algorithm for solving the total alkalinity-pH equation presented in G. Munhoven (2013) <doi:10.5194/gmd-6-1367-2013> and G. Munhoven (2021) <doi:10.5194/gmd-2020-447>. The total alkalinity-pH equation relates total alkalinity and pH for a given set of acid-base concentrations in a given 
+    water sample, among which carbonic acid. This package is particularly useful in marine chemistry involving dissolved inorganic carbon. Original package in Fortran can be found at <doi:10.5281/zenodo.4328965>.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
